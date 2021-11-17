@@ -10,7 +10,7 @@ public class Main {
         persons.put(465647495, "Ivanov Ivan4 Ivanovich");
 
         //перебор Коллекции
-        for (Map.Entry<Integer, String> item : persons.entrySet()) {
+        for (Map.Entry<Integer, String> item : persons.entrySet()){
             System.out.println("Ключ: " + item.getKey() + " Значение: " + item.getValue());
         }
 //        System.out.println(persons.get(465647490));
